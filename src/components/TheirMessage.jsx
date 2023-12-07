@@ -4,7 +4,7 @@ const TheirMessage = ({ lastMessage, message }) => {
   const isFirstMessageByUser = !lastMessage || lastMessage.sender.username !== message.sender.username;
   return (
     <div className='message-row'>
-      {isFirstMessageByUsers && (
+      {isFirstMessageByUser && (
         <div
             className='message-avatar'
             style={{ backgroundImage: `url(${message?.sender?.avatar})`}}
