@@ -9,6 +9,8 @@ const MessageForm = () => {
         <input 
             className='message-input'
             placeholder='Send a message ...'
+            value={value}
+            onChange={handleChange}
         
         />
     </form>
