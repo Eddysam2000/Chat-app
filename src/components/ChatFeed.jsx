@@ -8,6 +8,8 @@ const ChatFeed = (props) => {
 
     const chat = chats && chats[activeChat];
 
+    const renderReadReceipts = (message, isMyMessage) => {}
+
     const renderMessages = () => {
         const keys = Object.keys(messages);
 
