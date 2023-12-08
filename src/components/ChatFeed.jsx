@@ -18,8 +18,8 @@ const ChatFeed = (props) => {
                     backgroundImage: `url(${person?.person?.avatar})`
                 }}
             />
-        ))
-    }
+        ));
+    };
 
     const renderMessages = () => {
         const keys = Object.keys(messages);
@@ -46,7 +46,7 @@ const ChatFeed = (props) => {
         })
     }
 
-    if(!chat) return 'Loading...';
+    if(!chat) return 'Loading....';
 
     return (
         <div className='chat-feed'>
