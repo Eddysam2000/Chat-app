@@ -193,7 +193,7 @@
   }
   
   .send-icon {
-    top: 1px;
+    top: 10px;
     position: relative;
     transform: rotate(-90deg);
   }
