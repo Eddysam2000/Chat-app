@@ -285,7 +285,7 @@
     padding-right: 25px;
   }
   .button:hover span:after {
-    opacity: 10;
+    opacity: 1;
     right: 0;
   }
   
