@@ -11,7 +11,7 @@ const LoginForm = () => {
     return (
         <div className='wrapper'>
             <div className='form'>
-                <h1 className='title'>Chat Applicatio</h1>
+                <h1 className='title'>Chat Applications</h1>
                 <form onSubmit={handleSubmit}></form>
             </div>
         </div>
