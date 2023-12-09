@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const LoginForm = () => {
-    const [username, setState] = useState(second)
+    const [username, setUsername] = useState('');
+    const [password, setpassword] = useState('');
 }
 
 export default LoginForm
