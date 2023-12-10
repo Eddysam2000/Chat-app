@@ -13,6 +13,12 @@ const LoginForm = () => {
 
         try {
             await axios.get('https://api.chatengine.io/chats', { headers: authObject });
+
+            localStorage.setItem('username', username);
+            localStorage.setItem('password', password);
+
+            window.location.reload();
+
         } catch (error) {
             
         }
