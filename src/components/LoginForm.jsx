@@ -21,7 +21,7 @@ const LoginForm = () => {
                     <input type='password' value={password} onChange={(e) => setPassword(e.target.value)} className='input' placeholder='Password' required />
                     <div align="center">
                         <button type='submit' className='button'>
-                            <span>Start Chating</span>
+                            <span>Start Chatting</span>
                         </button>
                     </div>
                 </form>
